@@ -1,0 +1,428 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Stag";
+    src: url('../fonts/Stag-Book.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url('../fonts/Gilroy-Medium1.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Gilroy Bold";
+    src: url('../fonts/Gilroy-Bold1.otf');
+    font-weight: normal;
+}
+
+body {
+   
+    font-family: 'Gilroy', 'Stag', 'Open Sans', 'sans-serif';
+    font-size: 13px;
+}
+ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+#header {
+    background: #FFF;
+}
+#footer {
+    background: #716754;
+}
+#footer span, #footer p {color: #FFF; padding-left: 4px;}
+p {
+    padding: 0;
+}
+
+
+#content, #content  section{
+    background: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gilroy Bold', 'Stag', 'Open Sans', 'sans-serif';
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+    /*color: #666699;*/
+}
+
+h1 {
+    font-family: 'Gilroy Bold';
+    line-height: normal;
+    font-size: 28px;
+    color: #333333;
+}
+
+h2 {
+    font-family: 'Gilroy Bold';
+    line-height: normal;
+    font-size: 18px;
+    color: #333333;
+    text-align: justify;
+}
+
+h3 {   
+    line-height: normal;
+    font-size: 16px;
+    color: #333333;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%!important;
+    height: auto!important;
+}
+/* Back to top button */
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #efd65f;
+    color: #fff;
+    padding: 6px 12px 9px 12px;
+    font-size: 16px;
+    border-radius: 2px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+}
+
+.link-login {
+    font-size: 1.5em;
+    color: #0c2e8a !important;
+    font-weight: bold;
+}
+
+.link-login:hover {
+    color: #660000 !important;
+    font-weight: bold;
+}
+
+
+.form-control {
+    font-size: 13px !important;
+}
+
+form label {
+    padding: 6px 0px;
+}
+
+/*a {
+    color: #597694;
+    transition: 0.5s;
+}*/
+
+a:hover, a:active, a:focus {
+    color: #0c2e8a;
+    outline: none;
+    text-decoration: none;
+}
+
+.mobile-nav li a {
+    color: #FFF;
+    height: 48px;
+    padding: 10px 0;    
+    font-size: 13px;
+}
+
+.menu-header .nav > li > a {
+    color: #FFF !important;
+    position: relative;
+    display: block;
+    padding: 2px 10px 3px 10px;
+    font-size: 13px;
+    font-family: 'Stag', 'Gilroy', 'Open Sans', 'sans-serif'; 
+}
+
+
+/*--------------------------------------------------------------
+# Top Bar - hiện không dùng nữa
+--------------------------------------------------------------*/
+#topbar {
+background: #FFF;
+border-bottom: 1px solid #eee;
+font-size: 14px;
+color: #716754;
+height: 47px;
+}
+
+#topbarContainer {
+text-align: center;
+position: relative;
+}
+
+
+
+#topbar a {
+line-height: 1;
+color: #e0ddea;
+padding: 12px !important;
+}
+
+#topbar a:hover {
+    color: #efd65f;
+}
+/*---------------------------End top bar -----------------------------------*/
+
+.mobile-nav li {
+    color: #555;
+    text-align: left;
+    border-bottom:1px solid #BBB;
+}
+
+.navbar li.color-2:hover a, .navbar li.selected.color-2 a {
+    background: #c00;
+}
+
+.navbar li.color-3:hover a, .navbar li.selected.color-2 a {
+    background: #9500b3;
+}
+
+.navbar li.color-4:hover a, .navbar li.selected.color-2 a {
+    background: #093;
+}
+
+.navbar li.color-5:hover a, .navbar li.selected.color-2 a {
+    background: #ff5800;
+}
+
+.navbar li.color-6:hover a, .navbar li.selected.color-2 a {
+    background: #0cc;
+}
+
+.navbar li.color-7:hover a, .navbar li.selected.color-2 a {
+    background: #fc0;
+}
+
+.navbar li.color-8:hover a, .navbar li.selected.color-2 a {
+    background: #01819e;
+}
+
+.navbar li.color-9:hover a, .navbar li.selected.color-2 a {
+    background: #fb9619;
+}
+
+.navbar li.color-10:hover a, .navbar li.selected.color-2 a {
+    background: #c00;
+}
+
+.submenu.color-2 {
+    border-bottom: solid 5px #c00;
+}
+
+    .submenu.color-2 li:hover {
+        background: #c00;
+    }
+
+.submenu.color-3 {
+    border-bottom: solid 5px #9500b3;
+}
+
+    .submenu.color-3 li:hover {
+        background: #9500b3;
+    }
+
+.submenu.color-4 {
+    border-bottom: solid 5px #093;
+}
+
+    .submenu.color-4 li:hover {
+        background: #093;
+    }
+
+.submenu.color-5 {
+    border-bottom: solid 5px #ff5800;
+}
+
+    .submenu.color-5 li:hover {
+        background: #ff5800;
+    }
+
+.submenu.color-6 {
+    border-bottom: solid 5px #0cc;
+}
+
+    .submenu.color-6 li:hover {
+        background: #0cc;
+    }
+
+.submenu.color-7 {
+    border-bottom: solid 5px #fc0;
+}
+
+.submenu.color-7 li:hover {
+    background: #fc0;
+}
+
+.submenu.color-8 {
+    border-bottom: solid 5px #01819e;
+}
+
+.submenu.color-8 li:hover {
+    background: #01819e;
+}
+
+.submenu.color-9 {
+    border-bottom: solid 5px #fb9619;
+}
+
+    .submenu.color-9 li:hover {
+        background: #fb9619;
+    }
+
+#DangKyThamQuan input, #DangKyThamQuan textarea, #PhanHoi input, #PhanHoi textarea {
+    width: 100%;
+}
+#cmdDangKy, #cmdPhanHoi {width: 200px!important;height: 40px;}
+
+.headerBaiViet {
+    line-height: 33px;
+    font-size: 24px;
+    color: #333333;
+    text-align: justify;
+}
+
+.tomTatBaiViet {
+    line-height: 24px;
+    font-size: 16px;
+    text-align: justify;
+    color: #000000;
+}
+
+.chiTietBaiViet {
+    line-height: 20px;
+    font-size: 15px;
+    color: #000000;
+    text-align: justify;
+}
+
+.tieuDeBaiVietHome {
+    margin-top: 10px;
+    min-height: 40px;
+}
+
+.clearfix {
+    clear: both;   
+}
+
+#ContactInfo .widget_title {
+    background-color: #716754;
+    height: 35px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#VanBanPhapQuy th {
+    padding: 4px;
+    color: #FFFFFF;
+    background-color: #716754;
+    text-align: center;
+}
+
+#VanBanPhapQuy td {
+    padding: 4px;
+    text-align: center;
+}
+
+#VanBanPhapQuy .colTieuDe {
+    text-align: left;
+}
+
+#VanBanPhapQuy tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#BaiVietMoi, #TrungBay, #PhimVaHienVat, #GiaoDucTruyenThong, #SanPhamDacTrung {
+    border-bottom: 1px solid #E2E2E3;
+}
+
+.listsiconic-caption4,
+.listsiconic-caption5 {
+  position: absolute;
+  top: 259.69em;
+  left: 64.31em;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 16.5em;
+  height: 4.5em;
+}
+.listsiconic-caption5 {
+  top: 237.94em;
+  left: 46.13em;
+}
+
+.colorslight-icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+
+  .typographytxt-subheading-regu {
+    position: absolute;
+    width: calc(100% - 72px);
+    top: calc(50% - 18px);
+    right: 0;
+    left: 4.5em;
+    height: 1.25em;
+  }
+
+  .txt-subheading-regular {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 1em;
+    line-height: 1.5em;
+    display: inline-block;
+  }
+
+  .typographytxt-body-regular-14 {
+    position: absolute;
+    width: calc(100% - 72px);
+    top: calc(50% + 2px);
+    right: 0;
+    left: 4.5em;
+    height: 1.06em;
+    color: rgba(0, 0, 0, 0.54);
+  }
+
+  .txt-body-regular {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 0.88em;
+    line-height: 1.43em;
+    display: inline-block;
+  }
+  .iconsmenu-settingsmore-hor {
+  position: absolute;
+  top: calc(50% - 20px);
+  right: 0;
+  width: 2.5em;
+  height: 2.5em;
+}
+.icontailieu {
+    
+    position: right center;
+    display: inline-block;
+}
