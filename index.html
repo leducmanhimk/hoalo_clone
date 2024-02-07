@@ -40,7 +40,7 @@
 </style>
 </head>
 <body style="height: auto; min-height: 100%;">
-  <div class="container" style="max-width: 1440px; max-height: 47px;">
+  <div class="container hidden-sm hidden-xs" style="max-width: 1440px; max-height: 47px;">
     
       <div class="col-md-3">
         <img class="inline-block" style="margin-right: 45px; float: right; padding-top: 13px;" src="/Pictures/Group (2).svg"></img>
@@ -113,7 +113,6 @@
                   <li class=""><a href="/Articles/9/Trung-bay-chuyen-de-luu-dong-trien-lam">Trưng bày chuyên đề </a></li>
                   <li class=""><a href="/Articles/12/23627/TUYEN-SINH-CHUONG-TRINH-EM-HOC-LAM-THUYET-MINH-HE-2018.html">Em học làm thuyết minh</a></li>
                   <li class=""><a href="/Articles/37/Hoat-dong-khac">Hoạt động khác </a></li>
-
                 </ul>
               </div>
           </li>
@@ -267,11 +266,14 @@
 <section id="banner">   
   <div class="w3-content w3-display-container">
     <img class="mySlides" src="/Pictures/Rectangle 2.png" style="width: 100%; display: none;">
-    <img class="mySlides" src="/Pictures/Rectangle 2.png" style="width: 100%; display: block;">   
+    <img class="mySlides" src="/Pictures/pixta_29929153_M-1068x712.png" style="width: 100%; display: block;">   
     
 
-    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">❮</button>
-    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">❯</button>
+    <button class="w3-button w3-black w3-display-left" onclick="plusSlides(-1)">❮</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusSlides(1)">❯</button>
+
+    
+
   </div>
 
   <div id="LogoNew">
@@ -329,7 +331,7 @@
       </div>
     <div class="col-md-8">
       <a href="/Articles/12/26017/thong-bao-thay-đoi-phi-tham-quan-ban-ngay.html">
-        <img src="/Pictures/pixta_29929153_M-1068x712.png" style="width: 100%;height: auto;">
+        <img src="/Pictures/pixta_29929153_M-1068x712.jpg" style="width: 100%;height: auto;">
       </a>
         
 </div>
@@ -719,7 +721,7 @@
                     
                   </div>
                 </div>
-            <img src="Pictures/dotGroup.svg" style="margin: auto;"> 
+            <img src="Pictures/dotGroup.svg" class="center"> 
     </div>
   </section>
  
@@ -838,11 +840,8 @@
     </div>
   </section>
 
-  <section id="SanPhamDacTrung" class="col-md-12" style="margin-top: 10px;">
+  <div id="SanPhamDacTrung" class="col-md-12" style="margin-top: 10px;">
     <h1 class="sh">SẢN PHẨM ĐẶC TRƯNG</h1>
-    
-
-
     <div class="col-md-6">
       <div class="imgSanPhamTrangChu1" style="background-image: url('/Pictures/SP1.png');"></div>
     </div>
@@ -860,9 +859,9 @@
                         <div class="imgSanPhamTrangChu2" style="background-image: url('/Pictures/SP5.png');"></div>
                       </div>
 
-  </section>
-      </div>
-      <section id="PhimVaHienVat" class="col-md-12" style="margin-top: 15px; margin-bottom: 20px;">
+  </div>
+      
+      <div id="PhimVaHienVat" class="col-md-12" style="margin-top: 15px; margin-bottom: 20px; object-fit: contain; ">
         <div id="PhimTaiLieu" class="col-md-6">
           <h1 class="sh">THƯ VIỆN ẢNH</h1>
             <div class="col-md-12">        
@@ -874,31 +873,28 @@
             </div>
             
             <div class="col-md-6">
-              <div class="thumbnail img-responsive">  
+              <div class="thumbnail ">  
               
-                <img id="ytplayer" type="text/html" width="100%" height="auto" src="Pictures/367ca58925461afd813eabab33cd3eac.jpg" ></img>
+                <img id="ytplayer" type="text/html" width="auto" height="auto" src="Pictures/367ca58925461afd813eabab33cd3eac.jpg" ></img>
                     </div>
             </div>        
                 <div class="col-md-6">
-                  <img id="ytplayer" type="text/html" width="100%" height="auto" src="Pictures/133896b359467b90dac77a5110636bbd.jpg"  ></img>
+                  <div class="thumbnail ">  
+                  <img id="ytplayer"  type="text/html" width="auto" height="auto" src="Pictures/133896b359467b90dac77a5110636bbd.jpg"  ></img>
+                </div>
                 </div>
                 <div class="clearfix">
                 </div>
                 
         </div>
-        <div id="HienVatTrangChu" class="col-md-3" style="
-        padding-left: 30px;
+ <div id="HienVatTrangChu" class="col-md-3" style="
+       padding-left: 30px;
         padding-right: 30px;">
-          <a href="/HienVat">
+       <a href="/HienVat">
             <h1 class="sh">TÀI LIỆU</h1>
-          </a>
+       </a>
          <div class="row">
-          <div class="col-md-12" style="
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  margin-bottom: 15px;
-  max-width: 100%;
-  height: 70px;
-  overflow: auto;">
+<div class="col-md-12 col-md-12 col-sm-12 col-xs-12 divtailieu">
   <div class="row">
     <div class="col-md-3">
       <img src="Pictures/Avatar 40x40.1.svg" style="height: 40px; width: 40px; margin-top: 15px;">
@@ -911,12 +907,7 @@
     </div>
   </div>
 </div>
-          <div class="col-md-12" style="
-          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-          margin-bottom: 15px;
-          max-width: 100%;
-          height: 70px;
-          overflow: auto;">
+          <div class="col-md-12 col-md-12 col-sm-12 col-xs-12 divtailieu">
           <div class="row">
             <div class="col-md-3">
               <img src="Pictures/Avatar 40x40.1.svg" style="height: 40px; width: 40px; margin-top: 15px;">
@@ -929,12 +920,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-12" style="
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-        margin-bottom: 15px;
-        max-width: 100%;
-        height: 70px;
-        overflow: auto;">
+        <div class="col-md-12 col-md-12 col-sm-12 col-xs-12 divtailieu">
         <div class="row">
           <div class="col-md-3">
             <img src="Pictures/Avatar 40x40.1.svg" style="height: 40px; width: 40px; margin-top: 15px;">
@@ -947,12 +933,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-12" style="
-      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-      margin-bottom: 15px;
-      max-width: 100%;
-      height: 70px;
-      overflow: auto;">
+      <div class="col-md-12 col-md-12 col-sm-12 col-xs-12 divtailieu" >
       <div class="row">
         <div class="col-md-3">
           <img src="Pictures/Avatar 40x40.1.svg" style="height: 40px; width: 40px; margin-top: 15px;">
@@ -965,12 +946,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-12" style="
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 15px;
-    max-width: 100%;
-    height: 70px;
-    overflow: auto;">
+    <div class="col-md-12 col-md-12 col-sm-12 col-xs-12 divtailieu" >
     <div class="row">
       <div class="col-md-3">
         <img src="Pictures/Avatar 40x40.1.svg" style="height: 40px; width: 40px; margin-top: 15px;">
@@ -992,12 +968,7 @@
             <h1 class="sh">BĂNG ĐĨA</h1>
           </a>
           <div class="row" >
-            <div class="col-md-12" style="
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  margin-bottom: 15px;
-  max-width: 100%;
-  height: 70px;
-  overflow: auto;">
+<div class="col-md-12 col-md-12 col-sm-12 col-xs-12 divtailieu">
   <div class="row">
     <div class="col-md-3">
       <img src="Pictures/Avatar bang dia 40x40.png" style="height: 40px; width: 40px; margin-top: 15px;">
@@ -1010,12 +981,7 @@
     </div>
   </div>
 </div>
-<div class="col-md-12" style="
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  margin-bottom: 15px;
-  max-width: 100%;
-  height: 70px;
-  overflow: auto;">
+<div class="col-md-12 col-md-12 col-sm-12 col-xs-12 divtailieu">
   <div class="row">
     <div class="col-md-3">
       <img src="Pictures/Avatar bang dia 40x40.png" style="height: 40px; width: 40px; margin-top: 15px;">
@@ -1028,12 +994,7 @@
     </div>
   </div>
 </div>
-<div class="col-md-12" style="
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  margin-bottom: 15px;
-  max-width: 100%;
-  height: 70px;
-  overflow: auto;">
+<div class="col-md-12 col-md-12 col-sm-12 col-xs-12 divtailieu">
   <div class="row">
     <div class="col-md-3">
       <img src="Pictures/Avatar bang dia 40x40.png" style="height: 40px; width: 40px; margin-top: 15px;">
@@ -1046,12 +1007,7 @@
     </div>
   </div>
 </div>
-<div class="col-md-12" style="
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  margin-bottom: 15px;
-  max-width: 100%;
-  height: 70px;
-  overflow: auto;">
+<div class="col-md-12 col-md-12 col-sm-12 col-xs-12 divtailieu">
   <div class="row">
     <div class="col-md-3">
       <img src="Pictures/Avatar bang dia 40x40.png" style="height: 40px; width: 40px; margin-top: 15px;">
@@ -1064,12 +1020,7 @@
     </div>
   </div>
 </div>
-<div class="col-md-12" style="
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  margin-bottom: 15px;
-  max-width: 100%;
-  height: 70px;
-  overflow: auto;">
+<div class="col-md-12 col-sm-12 col-xs-12 divtailieu">
   <div class="row">
     <div class="col-md-3">
       <img src="Pictures/compact-disc.svg" style="height: 40px; width: 40px; margin-top: 15px;">
@@ -1154,6 +1105,35 @@
 </footer>
   
   </div>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
     
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+      
 
-</body></html>
+</body>
+</html>
