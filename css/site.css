@@ -3968,7 +3968,7 @@ ul.s li {
     line-height: normal;
     font-size: 12px;
     color: #716754;
-    background: url("/images/cat.png") no-repeat;
+    background: url("/Pictures/cat.png") no-repeat;
     text-align: left;
     padding-left: 12px;
     width: 49%;
@@ -3992,7 +3992,7 @@ ul.s li {
     line-height: normal;
     font-size: 12px;
     color: #9B9B9B;
-    background: url("/images/schedule.png") no-repeat;
+    background: url("/Pictures/schedule.png") no-repeat;
     background-position: left 0px top;
     float: right;
     padding-right: 3px;
@@ -4394,3 +4394,10 @@ span.pageIndex:hover {
 #qnmb {
     display: none;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
