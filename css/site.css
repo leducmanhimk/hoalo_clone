@@ -3561,22 +3561,22 @@ li.social a {
 }
 
 .address {
-    background-image: url("/images/contact.png");
+    background-image: url("/Pictures/contact.png");
     background-position: left top;
 }
 
 .phoneW {
-    background-image: url("/images/contact.png");
+    background-image: url("/Pictures/contact.png");
     background-position: left -27px;
 }
 
 .phoneH {
-    background-image: url("/images/contact.png");
+    background-image: url("/Pictures/contact.png");
     background-position: left -61px;
 }
 
 .email {
-    background-image: url("/images/contact.png");
+    background-image: url("/Pictures/contact.png");
     background-position: left -89px;
 }
 
